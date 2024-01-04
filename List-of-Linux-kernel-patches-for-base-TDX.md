@@ -9,7 +9,7 @@ This wiki includes the list of Linux kernel patches that have been merged, or ar
 | Patch description | Lore link | Category |
 |-------------------|-----------|----------|
 | TDX host kernel support | https://lore.kernel.org/lkml/cover.1699527082.git.kai.huang@intel.com/ | boot|
-| KVM: guest_memfd() and per-page attributes | https://lore.kernel.org/all/20230914015531.1419405-1-seanjc@google.com/ | boot |
+| KVM: guest_memfd() and per-page attributes | https://lore.kernel.org/lkml/20231105163040.14904-1-pbonzini@redhat.com/ | boot |
 | KVM: guest_memfd fixes | https://lore.kernel.org/all/20230921203331.3746712-1-seanjc@google.com/ | boot |
 | KVM TDX basic feature support | https://lore.kernel.org/all/cover.1697471314.git.isaku.yamahata@intel.com/ | boot |
 | KVM: guest_memfd(), X86: Common base for SNP and TDX | https://lore.kernel.org/lkml/cover.1689893403.git.isaku.yamahata@intel.com/ | boot |
