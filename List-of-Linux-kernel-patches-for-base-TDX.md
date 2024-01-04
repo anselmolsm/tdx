@@ -32,8 +32,8 @@ This wiki includes the list of Linux kernel patches that have been merged, or ar
 | #VE handler | v6.1 | https://lore.kernel.org/lkml/166734513448.7716.12910026848446212237.tip-bot2@tip-bot2/ | security | 373e715e31bf4e0f129befe87613a278fac228d3 |
 | CCEL | v6.4 | https://lore.kernel.org/all/20230322191313.22804-1-sathyanarayanan.kuppuswamy@linux.intel.com/ | security | 4f855dcead6c5be0a48a2779eeecb170ec144534 |
 | Mark TSC reliable | v6.6 | https://lore.kernel.org/all/169661218292.3135.7318812818696091080.tip-bot2@tip-bot2/T/ | security | 9ee4318c157b9802589b746cc340bae3142d984c |
-| configfs-tsm: Attestation Report ABI | v6.7-rc1 | https://lore.kernel.org/all/169776458564.1705513.13069337506739791098.stgit@dwillia2-xfh.jf.intel.com/ | Attestation | |
-| Fix soft lockups caused by parallel memory acceptance	| https://lore.kernel.org/all/20231016163122.12855-1-kirill.shutemov@linux.intel.com/ | Hotfix | 50e782a86c980d4f8292ef82ed8139282ca07a98 |
+| configfs-tsm: Attestation Report ABI | v6.7-rc1 | https://lore.kernel.org/all/169776458564.1705513.13069337506739791098.stgit@dwillia2-xfh.jf.intel.com/ | Attestation | db10cb9b574675402bfd8fe1a31aafdd45b002df..f4738f56d1dc62aaba69b33702a5ab098f1b8c63 |
+| Fix soft lockups caused by parallel memory acceptance	| v6.6-rc7 | https://lore.kernel.org/all/20231016163122.12855-1-kirill.shutemov@linux.intel.com/ | Hotfix | 50e782a86c980d4f8292ef82ed8139282ca07a98 |
 
 ## Patches in review
 
