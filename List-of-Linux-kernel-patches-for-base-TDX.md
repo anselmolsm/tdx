@@ -5,10 +5,10 @@ This wiki includes the list of Linux kernel patches that have been merged, or ar
 |-------------------|----------------|-----------|----------|-----------|
 | KVM HW enable/disable | v6.3 | https://lore.kernel.org/lkml/20221130230934.1014142-1-seanjc@google.com/ | boot | 2b01281273738bf2d6551da48d65db2df3f28998..9f1a4c004869d3c8061f286fec4d8096dd099b84 |
 | Unify TDCALL/SEAMCALL and TDVMCALL assembly | v6.7-rc1 | https://lore.kernel.org/lkml/cover.1692096753.git.kai.huang@intel.com/ | boot | 5d092b66119d774853cc9308522620299048a662..7b804135d4d1f0a2b9dda69c6303d3f2dcbe9d37 |
+| TDX host kernel support | v6.8-rc1 | https://lore.kernel.org/lkml/cover.1699527082.git.kai.huang@intel.com/ | boot | 765a0542fdc7aad7cbc1da3bd19bed6297b54e2c..4e1c7dddc71708c21d7fe69cc5f8297ffb7c6965 |
 ## Patches in review
 | Patch description | patch version | Lore link | Category |
 |-------------------|---------------|-----------|----------|
-| TDX host kernel support | v15 | https://lore.kernel.org/lkml/cover.1699527082.git.kai.huang@intel.com/ | boot|
 | KVM: guest_memfd() and per-page attributes | v14 | https://lore.kernel.org/lkml/20231105163040.14904-1-pbonzini@redhat.com/ | boot |
 | KVM: guest_memfd fixes | v1 | https://lore.kernel.org/all/20230921203331.3746712-1-seanjc@google.com/ | boot |
 | KVM TDX basic feature support | v17 | https://lore.kernel.org/all/cover.1699368322.git.isaku.yamahata@intel.com/ | boot |
