@@ -11,7 +11,6 @@ This wiki includes the list of Linux kernel patches that have been merged, or ar
 | Patch description | patch version | Lore link | Category |
 |-------------------|---------------|-----------|----------|
 | KVM TDX basic feature support | v18 | https://lore.kernel.org/all/cover.1705965634.git.isaku.yamahata@intel.com/ | boot |
-| KVM: guest_memfd(), X86: Common base for SNP and TDX | RFC v4 | https://lore.kernel.org/lkml/cover.1689893403.git.isaku.yamahata@intel.com/ | boot |
 | KVM TDX: TDP MMU: large page support | v7 | https://lore.kernel.org/lkml/cover.1705965958.git.isaku.yamahata@intel.com/ | performance |
 | x86/mce, KVM: X86: KVM memory poison and MCE injector support | v1 | https://lore.kernel.org/all/cover.1696926843.git.isaku.yamahata@intel.com/ | integrity |
 
