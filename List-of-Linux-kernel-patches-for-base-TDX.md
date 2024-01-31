@@ -13,7 +13,7 @@ This wiki includes the list of Linux kernel patches that have been merged, or ar
 | KVM TDX basic feature support | v18 | https://lore.kernel.org/all/cover.1705965634.git.isaku.yamahata@intel.com/ | boot |
 | KVM TDX: TDP MMU: large page support | v7 | https://lore.kernel.org/lkml/cover.1705965958.git.isaku.yamahata@intel.com/ | performance |
 | x86/mce, KVM: X86: KVM memory poison and MCE injector support | v1 | https://lore.kernel.org/all/cover.1696926843.git.isaku.yamahata@intel.com/ | integrity |
-| [tsm: Runtime measurement registers ABI](https://lore.kernel.org/all/20240128212532.2754325-1-sameo@rivosinc.com/#r)  | v2 | https://lore.kernel.org/all/20240128212532.2754325-1-sameo@rivosinc.com/ | attestation |
+| tsm: Runtime measurement registers ABI | v2 | https://lore.kernel.org/all/20240128212532.2754325-1-sameo@rivosinc.com/ | attestation |
 
 # Guest
 ## Merged patches
