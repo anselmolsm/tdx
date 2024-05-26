@@ -33,6 +33,7 @@ Set the following options in **_menuconfig_** to enable TDX.
 |  +- Software Guard eXtensions (SGX) [Y]
 |  +- Intel Trust Domain Extensions (TDX) host support [Y]
 +- Device Drivers
+|  +- EISA support [N]
 |  +- Block devices
 |     +- Virtio block driver [Y]
 |  +- Network device support
