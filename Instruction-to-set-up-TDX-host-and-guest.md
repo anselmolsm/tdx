@@ -32,6 +32,8 @@ Set the following options in **_menuconfig_** to enable TDX.
 |     +- Intel TDX (Trust Domain Extensions) - Guest Support [Y]
 |  +- Software Guard eXtensions (SGX) [Y]
 |  +- Intel Trust Domain Extensions (TDX) host support [Y]
++- Memory Management options
+|  +- Enable KSM for page merging [N]
 +- Device Drivers
 |  +- EISA support [N]
 |  +- Block devices
