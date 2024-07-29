@@ -10,8 +10,8 @@ This wiki includes the list of Linux kernel patches that have been merged, or ar
 ## Patches in review
 | Patch description | patch version | Lore link | Category |
 |-------------------|---------------|-----------|----------|
-| KVM TDX basic feature support | v18 | https://lore.kernel.org/all/cover.1705965634.git.isaku.yamahata@intel.com/ | boot |
-| KVM TDX: TDP MMU: large page support | v7 | https://lore.kernel.org/lkml/cover.1705965958.git.isaku.yamahata@intel.com/ | performance |
+| KVM TDX basic feature support | v19 | https://lore.kernel.org/kvm/cover.1708933498.git.isaku.yamahata@intel.com/ | boot |
+| KVM TDX: TDP MMU: large page support | v8 | https://lore.kernel.org/lkml/cover.1708933624.git.isaku.yamahata@intel.com/ | performance |
 | x86/mce, KVM: X86: KVM memory poison and MCE injector support | v1 | https://lore.kernel.org/all/cover.1696926843.git.isaku.yamahata@intel.com/ | integrity |
 | tsm: Runtime measurement registers ABI | v2 | https://lore.kernel.org/all/20240128212532.2754325-1-sameo@rivosinc.com/ | attestation |
 
@@ -33,9 +33,4 @@ This wiki includes the list of Linux kernel patches that have been merged, or ar
 | Mark TSC reliable | v6.6 | https://lore.kernel.org/all/169661218292.3135.7318812818696091080.tip-bot2@tip-bot2/T/ | security | 9ee4318c157b9802589b746cc340bae3142d984c |
 | configfs-tsm: Attestation Report ABI | v6.7-rc1 | https://lore.kernel.org/all/169776458564.1705513.13069337506739791098.stgit@dwillia2-xfh.jf.intel.com/ | Attestation | db10cb9b574675402bfd8fe1a31aafdd45b002df..f4738f56d1dc62aaba69b33702a5ab098f1b8c63 |
 | Fix soft lockups caused by parallel memory acceptance	| v6.6-rc7 | https://lore.kernel.org/all/20231016163122.12855-1-kirill.shutemov@linux.intel.com/ | Hotfix | 50e782a86c980d4f8292ef82ed8139282ca07a98 |
-
-## Patches in review
-
-| Patch description | patch version | Lore link | Category |
-|-------------------|---------------|-----------|----------|
-| Guest kdump and kexec support	| v5 | https://lore.kernel.org/lkml/20231222235209.32143-1-kirill.shutemov@linux.intel.com/ | Debug |
+| Guest kdump and kexec support	| v6.11-rc1 | https://lore.kernel.org/lkml/20240614095904.1345461-1-kirill.shutemov@linux.intel.com | Debug | 2b5e22afae07ca7d833e251f6d60da8455676ee9..16df35946120fca2346c415fae429c821391eef8 |
