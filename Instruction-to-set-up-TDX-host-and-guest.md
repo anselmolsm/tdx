@@ -5,7 +5,7 @@ This wiki is your comprehensive guide to building and configuring a TDX host Lin
 For the version information of various components like Linux kernel, QEMU, OVMF, etc. please refer to each release's notes.
 
 # Supported hardware
-4th Generation Intel® Xeon® Scalable Processors or newer with Intel® TDX.
+4th Generation Intel® Xeon® Scalable Processors or newer with Intel® TDX. Be sure to have a supported DIMM population aligned to the requirements of the processors in use.
 
 # Setup TDX host
 ## Distro information
@@ -72,6 +72,17 @@ $ dmesg |grep tdx
 [   52.900653] virt/tdx: module initialized
 ```
 If you see "virt/tdx: module initialized", that means the host side enable is going well.
+
+If you get "tdx: module is not loaded.", check if the platform has TDX enabled correctly. That can be verified using the command `rdmsr` from `msr-tools` package. Run:
+
+```
+$ rdmsr 0x1401 -f 11:11 # expected output is 1
+$ rdmsr 0xA0 # expected output is 0
+```
+
+If you do not get the expected outputs, double check both platform and BIOS configuration. Unsupported DIMM population is a common cause of problems - check the specific requirements of your CPU.
+
+If you get the expected outputs for both comamnds, the platform configuration is valid and TDX is enabled, then the issue is with the TDX Module loading process. Confirm `TDX Secure Arbitration Mode Loader (SEAM Loader)` is Enabled in BIOS, and verify the host kernel configuraration.
 
 # Setup a TDX guest
 A special version of TDVF will be needed. The TDVF is used as the firmware of the TD guest.
